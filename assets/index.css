@@ -240,3 +240,39 @@ input[type=submit] {
 .background {
     background: url(../assets/img/Screen\ Shot\ 2019-11-15\ at\ 8.17.15\ PM.png);
 }
+
+@media screen and (max-width: 768px) {
+    nav {
+        width: 70%;
+        float: left;
+        text-align: block;
+    }
+    h1 {
+        margin-top: 50px;
+
+    }
+
+    img {
+        width: 120px;
+
+    }
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        width: 70%;
+        float: left;
+        text-align: block;
+        
+    }
+    h1 {
+        margin-top: 50px;
+        font-size: 25px;
+
+    }
+
+    img {
+        width: 50px;
+
+    }
+}
